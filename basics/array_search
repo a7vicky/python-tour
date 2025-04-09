@@ -1,0 +1,13 @@
+"""
+Given an array, arr of n integers, and an integer element x, find whether element x is present in the array. Return the index of the first occurrence of x in the array, or -1 if it doesn't exist.
+"""
+
+def search(arr, x):
+    #Your code here 
+    if x in arr:
+        return arr.index(x)
+    else:
+        return -1
+
+if __name__ == "__main__":
+    print(search([4, 6], 4))
